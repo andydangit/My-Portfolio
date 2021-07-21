@@ -1,0 +1,12 @@
+:root { 
+    --primary: white;
+}
+
+.btn{
+   padding: 5px 15px;
+   outline: none; 
+   border: none;
+   border-radius: 2px;
+   cursor: pointer;
+}
+
