@@ -24,7 +24,7 @@ function Navbar() {
     <>
       <nav className="navbar">
         <div className="navbar-container">
-          <Link to="/" className="navbar-logo">
+          <Link to="/" className="navbar-logo" onClick ={closeMenu}>
             {/* A icon  */}
             Andy Portfolio <i class="fab fa-adn"></i>
           </Link>
