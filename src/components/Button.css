@@ -10,3 +10,8 @@
    cursor: pointer;
 }
 
+.btn--primary{
+    background-color: var(--primary);
+    color: silver;
+    border: 1px solid var(--primary)
+}
