@@ -1,8 +1,10 @@
 import React, { useState } from "react";
 import { Link } from "react-router-dom";
+import { Button } from "./Button";
 
 function Navbar() {
   const [click, setClick] = useState(false);
+  const [button, setButton] = useState(true)
 
   const handleClick = () => setClick(!click);
   const closeMenu = () => setClick(false);
@@ -40,6 +42,7 @@ function Navbar() {
               </Link>
             </li>
           </ul>
+          {button && <Button buttonStyle="btn--outline"> Contact </Button>}
         </div>
       </nav>
     </>
