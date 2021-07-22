@@ -6,15 +6,16 @@ import './Projects.css';
 function Projects() {
   return (
     <div className="projects-container">
-      <h1> Projects </h1>
-      <p> This is my project </p>
+      <h1> Andy Dang </h1>
+      <h2 className="jobTitle"> Full Stack Developer </h2>
+      <p className="paragraph"> I build and design apps that focus on the user experience. </p>
       <div className="projects-btns">
         <Button
           className="btns"
           buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
-          Projects xx
+          My Projects
         </Button>
       </div>
     </div>
