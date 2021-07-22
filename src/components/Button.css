@@ -12,8 +12,9 @@
 
 .btn--primary{
     background-color: var(--primary);
-    color: silver;
-    border: 1px solid var(--primary)
+    color: black;
+    border: solid;
+    box-shadow: 2px 2px 2px 1px gray;
 }
 
 
