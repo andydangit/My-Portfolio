@@ -14,9 +14,7 @@ function App() {
           {Home}/>
         </Switch>
       </Router>
-      Full Stack Developer <p></p>
-      <p> Andy Dang</p>
-      <p></p>I build and design apps that focus on the user experience
+
     </>
   );
 }
