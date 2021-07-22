@@ -1,7 +1,24 @@
 :root {
-    background-color: red;
+    background-color: #F4F9F9;
 }
 
-.projects-container{
-    background-color: #595260;
+.projects-container {
+    background-color: #F4F9F9;
+    height: 100vh;
+    width: 100%;
+    padding-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    object-fit: contain;
+
+}
+
+
+h1 {
+    font-size: 80px;
+}
+
+.paragraph {
+    text-align: center;
 }
