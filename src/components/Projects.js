@@ -11,7 +11,7 @@ function Projects() {
       <div className="projects-btns">
         <Button
           className="btns"
-          buttonStyle="btn--outline"
+          buttonStyle="btn--primary"
           buttonSize="btn--large"
         >
           Projects xx
