@@ -1,15 +1,15 @@
 import React from 'react'
 
+
 function About() {
     return (
-        <div className="about-container">
-            <h1> About </h1>
-            <p> My name is Andy Dang and I am am inspiring to be a Full Stack devloper by show casing my skill with this portfolio and other project </p> 
-
-            
-            
-        </div>
-    )
-}
+        <div>
+         <h1> Hey, I'm Andy. </h1>
+         <p> My goal is to be a full stack developer</p> 
+      </div>
+      );
+    }
 
 export default About
+
+
