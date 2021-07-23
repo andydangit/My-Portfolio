@@ -1,0 +1,34 @@
+.cards { 
+    padding: 4rem; 
+    background: yellow;
+}
+
+h1{
+    text-align: center;
+}
+
+.cards_container{ 
+    display: flex; 
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 50%;
+    margin: 0 auto;
+}
+
+.cards_wrapper{
+    position: relative;
+    margin: 50px 0 45px;
+}
+
+.cards_items {
+    margin-bottom: 24px;
+}
+
+.cards_item {
+    display: flex;
+    flex: 1;
+    margin: 0 1rem;
+    border-radius: 10px;
+  }
+
