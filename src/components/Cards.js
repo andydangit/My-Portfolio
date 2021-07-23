@@ -1,5 +1,6 @@
 import React from 'react';
 import CardItem from './CardItem';
+import './Cards.css'
 
 function Cards() {
     return (
@@ -8,7 +9,11 @@ function Cards() {
             <div className="cards_container">
                 <div className="cards_wrapper">
                     <ul className="cards_items">
-                        <CardItem />
+                        <CardItem 
+                        text="test 1"
+                        label = "test 1 project"
+                        path='/About'
+                        />
                     </ul>
                 </div>
             </div>
