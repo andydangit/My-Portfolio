@@ -10,10 +10,11 @@ function Cards() {
                 <div className="cards_wrapper">
                     <ul className="cards_items">
                         <CardItem 
-                        text="test 1"
-                        label = "test 1 project"
-                        path='/About'
+                        src="images/web_app_icon_2.jpg"
+                        label ="test 1 project"
+                        path='/https://www.google.com'
                         />
+                        <a href="https://www.google.com"> project 1 </a>
                     </ul>
                 </div>
             </div>
