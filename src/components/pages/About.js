@@ -2,28 +2,32 @@ import React from "react";
 import './About.css'
 
 function About() {
+
+  const name = "And Dang";
+
   return (
     <div className="About_Container">
-      <div>
-        <h1> Hi, I'm Andy Dang</h1>
-        <p> I have work in the IT world for the past 12 year <strong> and now as a software Developer </strong>
+      <h1 > Hello</h1>
+      <div class="about_info">
+        <p> My name is  <strong>{name} </strong> and I have work in IT for the past 12 year from  <strong> Help Desk </strong> to <strong> System Admin </strong>  and now  aiming to transition to <strong> software Developer </strong>. I enjoy the challenge of solving project.  In my spare time if i'm not learning about new technology, I'm usually watching movies.
         </p>
-        <div> <p> I like to spend my spare time if i'm not learning about new Technoloyg then I'm usually watching movies </p></div>
       </div>
       <div>
-        <div>
-            <h1> Skillset </h1> 
+        <div className="about_title2">
+            <h1 > Skillset </h1> 
             </div>
-            <div>
+            <div className="about_language">
             <ul> 
                 <li> HTML / CSS </li>
                 <li> JavaScript</li>
+                </ul>
+                <ul> 
                 <li> React</li>
+                <li> Express </li>
                 </ul>
                 <ul>
                 <li> MySQL</li>
                 <li> MongoDB</li>
-                <li> Express </li>
                 </ul>
                 </div>
       </div>
