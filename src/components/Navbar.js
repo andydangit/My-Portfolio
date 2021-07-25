@@ -47,6 +47,11 @@ function Navbar() {
                 Contact
               </Link>
             </li>
+            <li className="nav-item">
+              <Link to="/Projects" className="nav-links" onClick={closeMenu}>
+                Projects
+              </Link>
+            </li>
           </ul>
           {button && <Button buttonStyle="btn--outline"> Projects </Button>}
         </div>
