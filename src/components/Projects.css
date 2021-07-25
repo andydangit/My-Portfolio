@@ -35,3 +35,11 @@ h1 {
 border: solid;
 padding: 50px;
 }
+
+.contact_container{
+    padding: 20px;
+}
+
+.contact_button{
+    padding-top: 20px;
+}
