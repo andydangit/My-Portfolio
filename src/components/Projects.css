@@ -15,10 +15,23 @@
 
 
 h1 {
-    font-size: 80px;
+    font-size: 70px;
     color: #0A1931;
 }
 
 .paragraph {
     text-align: center;
+}
+
+.project_info {
+    display: flex;
+    flex-direction: row;
+
+    margin: 30px;
+    padding-left: 20px;
+}
+
+.Card{
+border: solid;
+padding: 50px;
 }
