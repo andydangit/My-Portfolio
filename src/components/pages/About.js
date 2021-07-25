@@ -11,7 +11,7 @@ function About() {
     <div className="About_Container">
       <h1 className="projects-container"> Hello</h1>
       <div class="about_info">
-        <p> My name is  <strong>{name} </strong> and I have work in IT for the past 12 year from  <strong> Help Desk </strong> to <strong> System Admin </strong>  and now  aiming to transition to <strong> software Developer </strong>. I enjoy the challenge of solving project.  In my spare time if i'm not learning about new technology, I'm usually watching movies.
+        <p> My name is  <strong>{name} </strong> and I have work in IT for the past 12 year from  <strong> Help Desk </strong> to <strong> System Admin </strong>  and now  aiming to transition to <strong> Software Developer </strong>. I enjoy the challenge of solving project.  In my spare time if i'm not learning about new technology, I'm usually watching movies.
         </p>
       </div>
       <div>
