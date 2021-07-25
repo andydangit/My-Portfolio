@@ -5,21 +5,27 @@ function About() {
   return (
     <div className="About_Container">
       <div>
-        <h1> Hey, I'm Andy. </h1>
-        <p> My goal is to be a full stack developer</p>
+        <h1> Hi, I'm Andy Dang</h1>
+        <p> I have work in the IT world for the past 12 year <strong> and now as a software Developer </strong>
+        </p>
+        <div> <p> I like to spend my spare time if i'm not learning about new Technoloyg then I'm usually watching movies </p></div>
       </div>
       <div>
         <div>
             <h1> Skillset </h1> 
             </div>
-            <tr> 
+            <div>
+            <ul> 
                 <li> HTML / CSS </li>
                 <li> JavaScript</li>
                 <li> React</li>
+                </ul>
+                <ul>
                 <li> MySQL</li>
                 <li> MongoDB</li>
                 <li> Express </li>
-            </tr>
+                </ul>
+                </div>
       </div>
     </div>
   );
