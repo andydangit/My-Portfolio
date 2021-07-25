@@ -1,5 +1,5 @@
-import React from 'react'
-import { Card, Icon, Image } from 'semantic-ui-react'
+import React from 'react';
+import { Card, Icon, Image } from 'semantic-ui-react';
 import '../../components/Projects.css';
 
 const Projects = () => (
