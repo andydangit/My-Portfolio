@@ -3,21 +3,15 @@ import { Card, Icon, Image } from 'semantic-ui-react'
 
 const Projects = () => (
   <Card>
-    <Image src='/images/avatar/large/matthew.png' wrapped ui={false} />
+    <Image src='/images/project_1.png' wrapped ui={false} />
     <Card.Content>
-      <Card.Header>Matthew</Card.Header>
+      <Card.Header> <a href="https://www.google.com">  HTML / CSS / Bootstrap </a> </Card.Header>
       <Card.Meta>
         <span className='date'>Joined in 2015</span>
       </Card.Meta>
       <Card.Description>
-        Matthew is a musician living in Nashville.
+        Create a live web application for a restaurant to showcase their business
       </Card.Description>
-    </Card.Content>
-    <Card.Content extra>
-      <a>
-        <Icon name='user' />
-        22 Friends
-      </a>
     </Card.Content>
   </Card>
 )
