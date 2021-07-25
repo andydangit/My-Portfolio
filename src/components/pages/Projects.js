@@ -5,7 +5,9 @@ import '../../components/Projects.css';
 const Projects = () => (
   <div> 
     <h1 className="projects-container"> Projects </h1>
-    <Card>
+    <div className="project_info"> 
+    <div> 
+    <Card className="Card">
     <Image src='/images/project_1.png'  wrapped ui={false} /> 
     <Card.Content>
       <Card.Header> <a href="https://andydangit.github.io/CafeDao/">  HTML / CSS / Bootstrap </a> </Card.Header>
@@ -14,16 +16,20 @@ const Projects = () => (
       </Card.Description>
     </Card.Content>
   </Card>
+  </div> 
 
-    <Card>
+  <div> 
+    <Card className="Card">
     <Image src='/images/project_2.png' wrapped ui={false} />
     <Card.Content>
-      <Card.Header> <a href="https://andydangit.github.io/Exercise_List/">  HTML / CSS / Javascript / Type.fit api  </a> </Card.Header>
+      <Card.Header> <a href="https://andydangit.github.io/Exercise_List/">  JS / Type.fit api  </a> </Card.Header>
       <Card.Description>
-        SPA for Todo list and a daily motivational quote that pull data from Type.fit api
+        SPA for Todo list and a  quote that pull data from Type.fit api
       </Card.Description>
     </Card.Content>
   </Card>
+  </div>
+  </div> 
   </div> 
 )
 
