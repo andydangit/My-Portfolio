@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <Projects />
-      <Cards />
+      {/* <Cards /> */}
     </>
   );
 }
