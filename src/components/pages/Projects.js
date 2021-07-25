@@ -1,12 +1,14 @@
 import React from 'react'
 import { Card, Icon, Image } from 'semantic-ui-react'
+import '../../components/Projects.css';
 
 const Projects = () => (
   <div> 
+    <h1 className="projects-container"> Projects </h1>
     <Card>
     <Image src='/images/project_1.png'  wrapped ui={false} /> 
     <Card.Content>
-      <Card.Header> <a href="https://www.google.com">  HTML / CSS / Bootstrap </a> </Card.Header>
+      <Card.Header> <a href="https://andydangit.github.io/CafeDao/">  HTML / CSS / Bootstrap </a> </Card.Header>
       <Card.Description>
         Create a live web application for a restaurant to showcase their business
       </Card.Description>
