@@ -1,11 +1,39 @@
 .About_Container{
 background-color: #F4F9F9;
 width: 100%;
-padding-top: 100px;
+/* padding-top: 100px; */
 display: flex;
 flex-direction: column;
-align-items: center;
+align-items: left;
 object-fit: contain;
-margin-left: 70px;
+/* margin-left: 80px; */
+font-size: larger;
 
+}
+
+.about_info{
+display: flex;
+object-fit: contain;
+padding: 10px;
+width: 80%;
+/* font-size: larger; */
+margin-left: 30px;
+}
+
+.about_title2{
+    margin-top: 80px;
+    /* size: 30px; */
+   
+}
+
+.about_language{
+    display: flex;
+    object-fit: contain;
+    /* width: 80%; */
+}
+
+li{
+    list-style: none;
+    /* font-size: larger; */
+    padding: 10px;
 }

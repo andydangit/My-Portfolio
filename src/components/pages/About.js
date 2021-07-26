@@ -1,25 +1,37 @@
 import React from "react";
-import './About.css'
+import './About.css';
+import '../../components/Projects.css';
+
 
 function About() {
+
+  const name = "And Dang";
+
   return (
     <div className="About_Container">
-      <div>
-        <h1> Hey, I'm Andy. </h1>
-        <p> My goal is to be a full stack developer</p>
+      <h1 className="projects-container"> Hello</h1>
+      <div class="about_info">
+        <p> My name is  <strong>{name} </strong> and I have work in IT for the past 12 year from  <strong> Help Desk </strong> to <strong> System Admin </strong>  and now  aiming to transition to <strong> Software Developer </strong>. I enjoy the challenge of solving project.  In my spare time if i'm not learning about new technology, I'm usually watching movies.
+        </p>
       </div>
       <div>
-        <div>
-            <h1> Skillset </h1> 
+        <div className="about_title2">
+            <h1 > Skillset </h1> 
             </div>
-            <tr> 
+            <div className="about_language">
+            <ul> 
                 <li> HTML / CSS </li>
                 <li> JavaScript</li>
+                </ul>
+                <ul> 
                 <li> React</li>
+                <li> Express </li>
+                </ul>
+                <ul>
                 <li> MySQL</li>
                 <li> MongoDB</li>
-                <li> Express </li>
-            </tr>
+                </ul>
+                </div>
       </div>
     </div>
   );
