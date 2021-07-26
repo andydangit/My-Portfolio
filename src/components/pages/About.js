@@ -5,7 +5,7 @@ import '../../components/Projects.css';
 
 function About() {
 
-  const name = "And Dang";
+  const name = "Andy Dang";
 
   return (
     <div className="About_Container">
