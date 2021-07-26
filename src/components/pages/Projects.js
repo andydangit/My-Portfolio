@@ -11,7 +11,7 @@ const Projects = () => (
     <Card className="Card">
     <Image src='/images/project_1.png'  wrapped ui={false} /> 
     <Card.Content>
-      <Card.Header> <a href="https://andydangit.github.io/CafeDao/">  Banh Mi Sandwich</a> </Card.Header>
+      <Card.Header> <a href="https://cafe-dao.netlify.app">  Banh Mi Sandwich</a> </Card.Header>
       <Card.Description>
         Create a live web application for a restaurant to showcase their business
       </Card.Description>
