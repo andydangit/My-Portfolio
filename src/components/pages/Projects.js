@@ -8,7 +8,9 @@ const Projects = () => (
     <div className="project_info">
       <div className="project_card">
         <Card>
-          <Image src="/images/project_1.png" wrapped ui={false} />
+        <a href="https://cafe-dao.netlify.app">
+          <Image src="/images/project_1.png" wrapped ui={true} />
+          </a>
           <Card.Content>
             <Card.Header>
               {" "}
@@ -23,9 +25,12 @@ const Projects = () => (
         </Card>
       </div>
 
+{/* Card 2  */}
       <div className="project_card">
         <Card>
-          <Image src="/images/project_2.png" wrapped ui={false} />
+        <a href="https://andydangit.github.io/Exercise_List/">
+          <Image src="/images/project_2.png" wrapped ui={true} />
+          </a>
           <Card.Content>
             <Card.Header>
               {" "}
@@ -39,6 +44,28 @@ const Projects = () => (
             </Card.Description>
           </Card.Content>
           <Card.Content> Javascript / Type.fit api </Card.Content>
+        </Card>
+      </div>
+
+{/* Card 3  */}
+      <div className="project_card">
+        <Card> 
+          <a href="https://mandalorian-fansite.netlify.app/home">
+          <Image src="/images/project_3.png"  wrapped ui={true} />
+          </a>
+          <Card.Content>
+            <Card.Header>
+              {" "}
+              <a href="https://mandalorian-fansite.netlify.app/home">
+                {" "}
+                Mandalorian Fansite{" "}
+              </a>{" "}
+            </Card.Header>
+            <Card.Description>
+             React.js Collaboration group project at Nucamp Programming Bootcamp
+            </Card.Description>
+          </Card.Content>
+          <Card.Content> React / React Router / ReactStrap </Card.Content>
         </Card>
       </div>
     </div>
