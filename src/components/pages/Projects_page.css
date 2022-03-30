@@ -16,6 +16,7 @@
     margin-top: .5rem;
     object-fit: contain;
     margin-bottom: .5rem;
+    gap: 10px;
 }
 
 .project_card{ 
