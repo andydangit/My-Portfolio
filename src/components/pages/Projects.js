@@ -6,6 +6,27 @@ const Projects = () => (
   <div className="project_page">
     <h1 className="project_title"> Projects </h1>
     <div className="project_info">
+
+      {/* Card 1 My Vacation Spot */}
+      <div className="project_card">
+        <Card>
+        <a href="https://my-vacation-spots.netlify.app/">
+          <Image src="/images/VacationSpot.png" wrapped ui={true} />
+          </a>
+          <Card.Content>
+            <Card.Header>
+              {" "}
+              <a href="https://my-vacation-spots.netlify.app/"> My Vacation Spot</a>{" "}
+            </Card.Header>
+            <Card.Description>
+              Vacation destinations site that pull data from a JSON file.
+            </Card.Description>
+          </Card.Content>
+          <Card.Content>React / Inline Style / useState </Card.Content>
+        </Card>
+      </div>
+
+      {/* Card 2 Sandwich Shop */}
       <div className="project_card">
         <Card>
         <a href="https://cafe-dao.netlify.app">
@@ -25,7 +46,7 @@ const Projects = () => (
         </Card>
       </div>
 
-{/* Card 2  */}
+{/* Card 3 To Do List */}
       <div className="project_card">
         <Card>
         <a href="https://andydangit.github.io/Exercise_List/">
@@ -47,7 +68,7 @@ const Projects = () => (
         </Card>
       </div>
 
-{/* Card 3  */}
+{/* Card 4 Mandalorian Fan Site */}
       <div className="project_card">
         <Card> 
           <a href="https://mandalorian-fansite.netlify.app/home">
@@ -62,7 +83,7 @@ const Projects = () => (
               </a>{" "}
             </Card.Header>
             <Card.Description>
-             React.js Collaboration group project at Nucamp Programming Bootcamp
+            Unofficial The Mandalorian fan site group project collaboration site built with React.js
             </Card.Description>
           </Card.Content>
           <Card.Content> React / React Router / ReactStrap </Card.Content>
